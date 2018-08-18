@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 import List from './List';
 import Flexbox from 'flexbox-react';
+import Background from './jay-z-fan-art-josh-little.jpg';
+
+var sectionStyle = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: `url(${Background})`,
+  backgroundSize: 'cover'
+};
+
 
 export default class App extends Component {
   constructor(props) {
@@ -41,8 +50,8 @@ export default class App extends Component {
                 <List items={this.state.items} />
               </div>
 
-              <div ClassName="art">
-                 <img src='images/jay-z-fan-art-josh-little.jpg' className='Jay-art'/>
+              <div ClassName="art" style={ sectionStyle }>
+                
               </div>            
           </Flexbox>
          

@@ -50,10 +50,17 @@ h1{
   color: steelblue;
 }
 
+
+
 .Jay-art{
   height: 100%;
   width: 100%;
 
+}
+
+.art{
+  color: white;
+  font-size: 20rem;
 }
 
 li{
