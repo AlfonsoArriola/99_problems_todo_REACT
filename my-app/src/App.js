@@ -38,7 +38,7 @@ export default class App extends Component {
     return (
       <div>
         <Flexbox flexDirection="column" minHeight="100vh">
-          <Flexbox element="header" justifyContent="center" height="60px" paddingTop="10px" paddingBottom="10px" margin="30px">
+          <Flexbox element="header" justifyContent="center" height="60px" paddingTop="20px" paddingBottom="15px" margin="30px">
             <h1> 
                <div>
                  I Got 99 Problems,
