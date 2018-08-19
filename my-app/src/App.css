@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -30,8 +31,6 @@
 /* __________________*/
 
 body{
-/* background-image: url("images/jay-z-fan-art-josh-little.jpg");
-*/
  background-color: grey;
 }
 
@@ -44,32 +43,55 @@ body{
   flex: 1;
 }
 
-
-h1{
-  text-align: center;
-  color: steelblue;
+.list{
+  background: coral;
 }
 
-
-
-.Jay-art{
-  height: 100%;
-  width: 100%;
-
-}
-
-.art{
+h1{ 
   color: white;
-  font-size: 20rem;
+}
+
+input{
+  height: 1.7rem;
+  border: 3.5px solid steelblue;
+  background: black;
+  color: white;
+}
+
+button{
+  margin: 1.5rem;
+  padding: .5rem;
+  border-radius: 50%;
 }
 
 li{
   color: coral;
+  font-size: 1.2em;
+  margin: .5rem;
 }
 
 footer{
   background: steelblue;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    h1{ 
+        
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    h1{ 
+        font-size: 1.7em;
+    }
+}
+
+
 
 
