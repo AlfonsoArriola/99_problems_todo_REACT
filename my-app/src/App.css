@@ -31,53 +31,71 @@
 /* __________________*/
 
 body{
- background-color: grey;
+ background-color: #4ca2d1;
+ font-family: 'Lora', serif;
+}
+
+header{
+  text-align: center;
+  padding: 1rem;
 }
 
 .container{
- display: flex;
- align-items: center;
+ display: grid;
+ grid-template-columns: 1.3fr 1.7fr;
+ height: 100vh;
+ width: 100vw;
 }
 
-.container > div {
-  flex: 1;
-}
-
-.list{
-  background: coral;
+.poster{
+  background: purple;
+  height: 100%;
+  background-image: url(jay2.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 h1{ 
-  color: white;
+  color: #ededf6;
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
 }
 
 input{
-  height: 1.7rem;
-  border: 3.5px solid steelblue;
-  background: black;
+  height: 2.6rem;
+  border: 3.5px solid #ffa915;
+  background: #00223e;
   color: white;
+  margin: .5rem;
 }
 
 button{
+  height: 2.6rem;
+  width: 5rem;
   margin: 1.5rem;
   padding: .5rem;
   border-radius: 50%;
+  border: none;
+  box-shadow: 4px 4px 4px #201a1a;
+  color: #00223e;
 }
 
 li{
-  color: coral;
+  color: #ededf6;
   font-size: 1.2em;
   margin: .5rem;
 }
 
 footer{
-  background: steelblue;
-  color: white;
+  background: #00223e;
+  color: #ededf6;
+  height: 6rem;
+  padding: 1.5rem;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: black;
+     background-color: #1c1c1d;
     }
 
     h1{ 
@@ -88,8 +106,18 @@ footer{
 @media only screen and (max-width: 400px) {
 
     h1{ 
-        font-size: 1.7em;
+      font-size: 1.7em;
     }
+
+    .poster{
+      background: purple;
+      height: 100%;
+      background-image: url(jay2.jpg);
+      background-position:25% 75%;
+      background-size: cover;
+    }
+
+
 }
 
 
